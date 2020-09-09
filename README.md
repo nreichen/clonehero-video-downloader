@@ -1,5 +1,5 @@
 # CloneHeroVideoDownloader
-Short python script that allows you to download the the top YouTube music video for songs.
+Short python script that allows you to download the the top YouTube music video for songs in your Clone Hero library.
 
 Disclaimer
 -this is my first github repository so please message me with any feedback on how I can improve upon my work or the way I uploaded my work! :)
