@@ -13,7 +13,7 @@ except ImportError:
 
 import os 
 
-
+#CHANGE THE HOME FOLDER TO THE FOLDER PATH YOU WANT TO DOWNLOAD SONGS FOR
 homeFolder = "D:\clonehero-win64\Songs\The Beatles (Various Songs)"
 os.chdir(homeFolder)
 print(os.getcwd())
