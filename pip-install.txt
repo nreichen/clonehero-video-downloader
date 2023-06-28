@@ -1,0 +1,4 @@
+yt_dlp
+PyUsb
+usb
+google

@@ -1,6 +1,6 @@
 #import youtube-dl
 from __future__ import unicode_literals
-import youtube_dl
+import yt_dlp
 
 #import PyUsb
 import usb
@@ -14,7 +14,7 @@ except ImportError:
 import os 
 
 #CHANGE THE HOME FOLDER TO THE FOLDER PATH YOU WANT TO DOWNLOAD SONGS FOR
-homeFolder = "D:\clonehero-win64\Songs\The Beatles (Various Songs)"
+homeFolder = "D:\Songs"
 os.chdir(homeFolder)
 print(os.getcwd())
 
@@ -35,7 +35,6 @@ for file in os.listdir():
 	ydl_opts = {'outtmpl': 'video.mp4',
 				'nooverwrites': 0,
 				'noplaylist': 1}
-	with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+	with yt_dlp.YoutubeDL(ydl_opts) as ydl:
 	    ydl.download([url])
 	
-
